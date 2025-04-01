@@ -1,0 +1,64 @@
+/* Global Styles */
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: black;
+    position: relative;
+  }
+  
+  /* Logo Styles */
+  .logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 150px;
+    width: auto;
+  }
+  
+  /* Container with the background image */
+  .container {
+    background: url('https://img.freepik.com/fotos-premium/o-conceito-de-conversor-de-moeda-entre-dolar-em-iene-e-moedas-fluindo-sobre-fundo-verde-claro_342841-27.jpg?w=1480') no-repeat center center/cover;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Content div for text and button */
+  .content {
+    color: black;
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 8px;
+  }
+  
+  /* Heading Styles */
+  .content h2 {
+    color: black;
+    margin-bottom: 25px;
+    }
+  
+  /* Button Styles */
+  button {
+    background-color: #ff1b7b; /* Cor do botão */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    margin: 8px; /* Adicionando margem para espaçamento entre os botões */
+    border-radius: 15px; /* Bordas arredondadas nos botões */
+  }
+  
+  button:hover {
+    background-color: #1ABC9C; /* Cor ao passar o mouse */
+  }
+  
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    padding: 15px;
+  }
